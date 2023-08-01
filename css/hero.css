@@ -1,0 +1,27 @@
+.hero {
+  /* text-align: center;
+    padding: 18rem 0; */
+}
+
+.policy {
+  /* padding: 12rem 0;
+    text-align: center; */
+}
+
+.contacts {
+  /* padding: 12rem 0;
+    text-align: center; */
+}
+
+.question {
+  /* padding: 12rem 0;
+    text-align: center; */
+}
+
+.phrase {
+  /* padding: 15rem 0;
+  text-align: center; */
+}
+
+@media screen and (min-width: 1440px) {
+}
