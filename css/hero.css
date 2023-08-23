@@ -1,26 +1,100 @@
 .hero {
-  /* text-align: center;
-    padding: 18rem 0; */
+  text-align: center;
+  padding: 10rem 0;
+}
+.hero .title {
+  max-width: 60rem;
+  line-height: 1;
+  margin: 0 auto 1rem;
+}
+.hero .text {
+  max-width: 30rem;
+  margin: 0 auto 2rem;
 }
 
 .policy {
-  /* padding: 12rem 0;
-    text-align: center; */
+  padding: 10rem 0;
+  text-align: center;
+}
+.policy .sub-title {
+  margin-bottom: 8rem;
+}
+.policy-item-title {
+  font-family: var(--title-font);
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.policy-item .text {
+  margin: 0 auto 1rem;
+  max-width: 40rem;
+}
+.policy-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+.phrase__wrapper {
+  background-color: var(--first-brand-color);
+}
+.phrase {
+  padding: 12rem 0;
+  text-align: center;
+}
+.phrase .title {
+  margin-bottom: 2rem;
 }
 
 .contacts {
-  /* padding: 12rem 0;
-    text-align: center; */
+  padding: 10rem 0;
+  text-align: center;
+}
+.contacts-block {
+  margin-bottom: 8rem;
+}
+.contacts .sub-title {
+  margin-bottom: 1rem;
+}
+.contacts-block .text {
+  margin: 0 auto 1rem;
+  max-width: 40rem;
+}
+.contacts-span {
+  font-family: var(--title-font);
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto 0.5rem;
+}
+.contacts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
 
 .question {
-  /* padding: 12rem 0;
-    text-align: center; */
+  padding: 10rem 0;
+  text-align: center;
 }
-
-.phrase {
-  /* padding: 15rem 0;
-  text-align: center; */
+.question .sub-title {
+  margin-bottom: 8rem;
+}
+.question-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.question-sub-title {
+  font-family: var(--title-font);
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  display: block;
+  margin: 0 auto 0.5rem;
+}
+.question-item .text {
+  max-width: 60rem;
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 1440px) {

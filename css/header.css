@@ -99,7 +99,7 @@ body.open-menu {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
-.cart__btn svg {
+.cart__btn-svg {
   width: 2rem;
   height: auto;
   display: block;

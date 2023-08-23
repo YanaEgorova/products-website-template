@@ -29,33 +29,8 @@
                 </button>
                 <a href="./index.html" class="header__logo logo js_website-name">website name</a>
                 <a href="./shop.html" class="cart__btn">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                    x="0px"
-                    y="0px"
-                    viewBox="0 0 424.449 424.449"
-                    style="enable-background: new 0 0 424.449 424.449"
-                    xml:space="preserve"
-                  >
-                    <g>
-                      <g>
-                        <g>
-                          <circle cx="170.241" cy="374.273" r="50.176"></circle>
-                          <path
-                            d="M316.673,324.098L316.673,324.098c-27.711,0-50.176,22.465-50.176,50.176s22.465,50.176,50.176,50.176
-                       c27.711,0,50.176-22.465,50.176-50.176S344.384,324.098,316.673,324.098z"
-                          ></path>
-                          <path
-                            d="M402.177,272.897H140.545l-5.12-29.696h215.04c6.326,0.019,12.017-3.843,14.336-9.728l51.2-129.024
-                       c3.111-7.892-0.766-16.812-8.658-19.922c-1.808-0.713-3.735-1.076-5.678-1.07H108.801L96.513,12.801
-                       c-1.262-7.471-7.784-12.906-15.36-12.8h-58.88c-8.483,0-15.36,6.877-15.36,15.36s6.877,15.36,15.36,15.36h46.08l44.032,260.096
-                       c1.262,7.471,7.784,12.906,15.36,12.8h274.432c8.483,0,15.36-6.877,15.36-15.36C417.537,279.774,410.66,272.897,402.177,272.897z
-                       "
-                          ></path>
-                        </g>
-                      </g>
-                    </g>
+                  <svg class="cart__btn-svg" width="20" height="20">
+                    <use href="./img/icons/icons.svg#icon-cart"></use>
                   </svg>
                   <span class="cart__span js_cart__span">0</span>
                 </a>
@@ -90,33 +65,111 @@
         <div class="hero__wrapper">
           <div class="container">
             <section class="hero">
-                   <h1 class="title js_main-title"></h1>
+              <h1 class="title js_main-title"></h1>
               <p class="text js_sub-title"></p>
+              <a href="#products" class="btn">our products</a>
             </section>
           </div>
         </div>
 
         <div class="policy__wrapper">
           <div class="container">
-            <section class="policy"></section>
+            <section class="policy">
+              <h2 class="sub-title">Our Policies</h2>
+              <ul class="policy-list">
+                <li class="policy-item">
+                  <h3 class="policy-item-title">Privacy notice</h3>
+                  <p class="text">
+                    We are committed to providing an exciting and safe online shopping experience and elevated level of
+                    personal service synonymous with the Company.
+                  </p>
+                  <a href="./privacy.html" class="btn">read more</a>
+                </li>
+                <li class="policy-item">
+                  <h3 class="policy-item-title">Return policy</h3>
+                  <p class="text">
+                    The items are eligible for free replacement, within 30 days of delivery, in an unlikely event of
+                    damaged, defective or different item delivered to you.
+                  </p>
+                  <a href="./return.html" class="btn">read more</a>
+                </li>
+              </ul>
+            </section>
+          </div>
+        </div>
+
+        <div class="phrase__wrapper">
+          <div class="container">
+            <section class="phrase">
+              <h2 class="title">Here to make your life easier</h2>
+              <a href="./shop.html" class="btn">go to cart</a>
+            </section>
           </div>
         </div>
 
         <div class="contacts__wrapper">
           <div class="container">
-            <section class="contacts"></section>
+            <section class="contacts">
+              <div class="contacts-block">
+                <h2 class="sub-title">Our Contacts</h2>
+                <p class="text">
+                  If you require help, please do not hesitate and feel free to reach us at email. We would be more than
+                  happy to answer your questions.
+                </p>
+                <a href="./contacts.html" class="btn">contacts us</a>
+              </div>
+              <ul class="contacts-list">
+                <li class="contacts-item">
+                  <span class="contacts-span">Address:</span>
+                  <span class="text js_website-address"></span>
+                </li>
+                <li class="contacts-item contacts-item-link">
+                  <span class="contacts-span">Email:</span>
+                  <a href="" class="text js_website-email"></a>
+                </li>
+                <li class="contacts-item contacts-item-link">
+                  <span class="contacts-span">Phone:</span>
+                  <a href="" class="text js_website-phone"></a>
+                </li>
+              </ul>
+            </section>
           </div>
         </div>
 
         <div class="question__wrapper">
           <div class="container">
-            <section class="question"></section>
+            <section class="question">
+              <h2 class="sub-title">frequently asked questions</h2>
+              <ul class="question-list">
+                <li class="question-item">
+                  <h3 class="question-sub-title">How can I track my order?</h3>
+                  <p class="text">A tracking number will be provided to you in your Shipping Confirmation email.</p>
+                </li>
+                <li class="question-item">
+                  <h3 class="question-sub-title">How can I change my Shipping Address?</h3>
+                  <p class="text">
+                    Changing of address is only allowed on or before 11:00pm (PDT, -7 GMT) on the same day of placing an
+                    order. You may contact us via
+                    <a href="" class="link js_website-email"></a>
+                    to request for such changes.
+                  </p>
+                </li>
+                <li class="question-item">
+                  <h3 class="question-sub-title">How is my order shipped?</h3>
+                  <p class="text">
+                    The standard ground mail service is shipped via United States Postal Service First Class Mail.
+                    Packages will arrive within 3-5 business days. Please be advised that shipments are not sent out on
+                    Saturdays, Sundays, or any Holidays. We do not guarantee arrival dates or times.
+                  </p>
+                </li>
+              </ul>
+            </section>
           </div>
         </div>
 
         <div class="products__wrapper hero-products">
           <div class="container">
-            <section class="products">
+            <section class="products" id="products">
               <h3 class="sub-title">Our Products</h3>
               <div class="sub-title__box">
                 <p class="text success-message js_success-message">
@@ -128,12 +181,6 @@
                 <ul class="js_products__list products__list"></ul>
               </div>
             </section>
-          </div>
-        </div>
-
-        <div class="phrase__wrapper">
-          <div class="container">
-            <section class="phrase"></section>
           </div>
         </div>
       </main>
